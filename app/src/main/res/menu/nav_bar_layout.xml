@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item android:title="@string/your_profile"
+            android:id="@+id/your_profile"
+            android:icon="@drawable/ic_face_24"
+            />
+        <item android:title="@string/sign_out"
+            android:id="@+id/sign_out"
+            android:icon="@drawable/ic_exit_24"/>
+
+        <item android:id="@+id/categories"
+            android:title="@string/categories"
+            android:icon="@drawable/ic_category_24"/>
+    </group>
+</menu>
